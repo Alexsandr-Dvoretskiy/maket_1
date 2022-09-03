@@ -1,0 +1,28 @@
+%visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+%display-block {
+  display: block;
+  padding: 0;
+  border: 0;
+}
+
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%centeredFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

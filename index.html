@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>goit-markup-hw-02</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Seymour+One&display=swap" rel="stylesheet">
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.min.css" />
+	</head>
+
+	<body class="page">
+		<!-- Шапка -->
+
+	
+		
+
+		<!-- main content -->
+
+		<main>
+			<!-- Герой -->
+
+			
+			<section class="about">
+				<div  class="container">
+					<label class="about__lebel" >tradition and love</label>
+					<h2 class="about__title">how it’s made?</h2>
+				<div class="about__list">
+					<div >
+				
+						 <picture class="about__picture">
+                        
+                            <source media="(min-width: 1200px)" 
+                            srcset="./images/About/Корова-500.png 1x,
+							./images/About/Корова-500@2x.png 2x" />
+                        
+                            <source media="(min-width: 768px)" 
+                            srcset="./images/About/Корова-330.png 1x,
+							./images/About/Корова-330@2x.png 2x" />
+                        
+                            <source media="(max-width: 767px)" 
+                            srcset="./images/About/Корова-278.png 1x,
+							./images/About/Корова-278@2x.png 2x" />
+                        
+                        
+                            <img src="./images/About/Корова.png" alt="cow" >
+                        </picture>
+					</div>
+					<div class="about__text">
+						<p>
+							Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts.
+
+						</p>
+						<p>
+							We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes. 
+						</p>
+						<p>
+							This is enough to choose ice cream and coffee for any mood!
+						</p>
+						<button type="button" class="about__btn" data-modal-open>Read more 
+						</button>
+
+					
+					</div>
+					
+				</div>
+
+				<div class="about__backdrop is-hidden" data-modal>
+					<div class="about__modal">
+						<h3 class="about__modal--title">
+							how it’s made?
+						</h3>
+
+						<iframe class="about__modal--video"    src="https://www.youtube.com/embed/qhqRSvWy-h0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+						</iframe>
+						<p class="about__modal--text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+						</p>
+
+						<button type="button" 
+						class="about__modal--close" data-modal-close>
+							<svg width="16"
+							height="16"
+							aria-label="Переключатель мобильного меню">
+								<use  href="./images/sprite-mob.svg#icon-close_40px"></use>
+							</svg>
+						</button>
+
+
+					</div>
+				</div>
+
+				
+				
+				
+
+			</section>
+		</main>
+
+		<!-- подвал -->
+
+		<script src="./js/modal.js"></script>
+		<script src="./js/menu.js"></script>
+		<script src="./js/mobile-menu.js"></script>
+	</body>
+</html>
